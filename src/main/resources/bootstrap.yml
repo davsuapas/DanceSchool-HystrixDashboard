@@ -1,6 +1,6 @@
 spring:
   application:
-    name: hystrixdashboardschool
+    name: hystrixdashboard-school
   profiles:
     active: development
 
