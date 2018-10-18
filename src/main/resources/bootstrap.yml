@@ -3,3 +3,21 @@ spring:
     name: hystrixdashboardschool
   profiles:
     active: development
+
+---
+
+spring:
+  profiles: development
+
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+---
+
+spring:
+  profiles: kubernetes
+
+  cloud:
+    config:
+      uri: http://configuration-school:8888
